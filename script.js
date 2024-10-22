@@ -38,7 +38,7 @@ document.getElementById('submit').addEventListener('click', function() {
         * ageCoefficient
         * reputationCoefficient;
 
-    // Обновляем отображение итоговой цены
+    
     document.getElementById('final-price').innerText = `Final Price: $${finalPrice.toFixed(2)}`;
 });
 
